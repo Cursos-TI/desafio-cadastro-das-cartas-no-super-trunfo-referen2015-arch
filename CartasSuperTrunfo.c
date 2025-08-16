@@ -24,17 +24,17 @@ int main() {
     // Linha em branco para espaçamento
     printf("\n");              
 
-    // Instruções para o usuário sobre o que será inserido
+     // Instruções para o usuário sobre o que será inserido
     printf("Vamos Inserir os dados das cartas do SUPER TRUNFO DE PAÍSES? \n");
     printf("As cartas trarão informações sobre CIDADES. \n");
-    printf("Os ESTADOS serão representados por letras. \n");
-    printf("A primeira carta terá a letra A e a última a letra H. \n");
+    printf("As nome das CIDADES não poderá ter caracter especial e os espaços devem ser substituídos por - ou _ . \n");
+    printf("Os ESTADOS serão representados por suas siglas. \n");
+    printf("A primeira carta terá a siglas A e a última a siglas H. \n");
     printf("A numeração das cartas iniciará com o número 01 e a última terá o número 08. \n");
-    // Linha em branco para espaçamento
     printf("\n");
 
     // Solicita a letra do estado da primeira carta
-    printf("Insira a letra da carta: ");
+    printf("Insira as siglas do Estado: ");
     // Lê a string (letra do estado) para 'letra'
     scanf("%s", letra);
 
@@ -71,7 +71,7 @@ int main() {
     printf("\n");
 
     // Solicita a letra do estado da segunda carta
-    printf("Insira a letra da carta: ");
+    printf("Insira as siglas do Estado: ");
     // Lê string para 'letra2'
     scanf("%s", letra2);
 
