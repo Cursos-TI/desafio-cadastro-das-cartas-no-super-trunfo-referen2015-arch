@@ -3,7 +3,7 @@
 
 
 
-int main(){       // Função principal do programa, onde a execução começa
+int main(){
 
     // Declaração das variáveis para armazenar dados da primeira carta
     int codigodacarta;
