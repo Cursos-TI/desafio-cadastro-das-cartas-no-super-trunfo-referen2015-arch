@@ -67,8 +67,8 @@ int main(){
     scanf("%d", &pontosturisticos); // Lê inteiro para 'pontosturisticos'
 
     // Espaçamento visual no console
-    printf(" \n");
-    printf(" \n");
+    printf("\n");
+    printf("\n");
 
     // Mensagem informando que a próxima carta será cadastrada
     printf("Agora vamos cadastrar a próxima carta \n");
