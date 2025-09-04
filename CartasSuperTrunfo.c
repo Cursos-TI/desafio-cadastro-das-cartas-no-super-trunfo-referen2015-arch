@@ -63,6 +63,7 @@ int main(){
     printf("Insira a quantidade de Pontos Turísticos da cidade: ");
     scanf("%d", &pontosturisticos);
 
+
     printf("Densidade Populacional: %.2f habitantes/km²\n", populacao / area);
     printf("PIB per capta: R$ %.2f PIB/habitantes\n", pib / populacao);
 
